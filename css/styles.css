@@ -1,0 +1,121 @@
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/*******************************|Mobile Design|******************************/
+
+@media (min-width:378px) and (max-width:767px){
+
+    /********Emrah Cagigan**************/
+
+
+
+    /********Selçuk Bayram Aydın********/
+
+
+
+    /********Musa Eren Tanrıöver********/
+
+
+
+    /***********Tunahan Erdem**********/
+
+
+
+    /**********Hasip Tektaş************/
+
+
+
+    /**********Şebnem Shabb007*********/
+
+
+
+    /**********Şebnem Kosker***********/
+
+
+
+}
+
+/*******************************|Tablet Design|******************************/
+@media (min-width:768px) and (max-width:1279px){
+
+    /********Emrah Cagigan**************/
+
+
+
+    /********Selçuk Bayram Aydın********/
+
+
+
+    /********Musa Eren Tanrıöver********/
+
+
+
+    /***********Tunahan Erdem**********/
+
+
+
+    /**********Hasip Tektaş************/
+
+
+
+    /**********Şebnem Shabb007*********/
+
+
+
+    /**********Şebnem Kosker***********/
+
+
+    
+
+}
+
+/*******************************|Desktop Design|******************************/
+@media (min-width:1280px) {
+
+    /********Emrah Cagigan**************/
+
+
+
+    /********Selçuk Bayram Aydın********/
+
+
+
+    /********Musa Eren Tanrıöver********/
+
+
+
+    /***********Tunahan Erdem**********/
+
+
+
+    /**********Hasip Tektaş************/
+
+
+
+    /**********Şebnem Shabb007*********/
+
+
+
+    /**********Şebnem Kosker***********/
+
+
+}
+
+
+
