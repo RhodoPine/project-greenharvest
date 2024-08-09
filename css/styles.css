@@ -1069,8 +1069,8 @@
   }
   .container {
   min-width: 768px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 100px;
+  padding-right: 100px;
   }
 
   .footer-wrap {
