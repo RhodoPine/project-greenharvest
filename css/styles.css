@@ -1,21 +1,61 @@
-ul, li {
-    list-style-type: none;
+:root {
+    --black: #141414;
+    --green: #576f35;
+    --purple: #7a3145;
+    --purple-hover: #622133;
+    --beige: #fbfbfb;
+    --railway: "Inter Tight", sans-serif;
+  }
+  html {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Inter Tight", sans-serif;
+    background-color: var(--beige);
+    color: var(--beige);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  ul,
+  ol {
+    margin: 0;
     padding: 0;
-    margin: 0;
-}
-
-h1,h2,h3,h4,h5,h6, p {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
+  }
+  button {
+    cursor: pointer;
+  }
+  img {
     display: block;
-    width: 100%;
-}
+    max-width: 100%;
+    height: auto;
+  }
+  address {
+    font-style: normal;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  /* JAVASCRIPT */
 
 /*******************************|Mobile Design|******************************/
 
@@ -23,7 +63,147 @@ img {
 
     /********Emrah Cagigan**************/
 
+    /* HEADER */
 
+    .header {
+      background-color: #576f35;
+    }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .header-logo {
+      display: flex;
+      align-items: inherit;
+    }
+    .header-main-page {
+      display: flex;
+      align-items: center;
+    }
+    .header-navbar {
+      display: none;
+    }
+
+    /* HERO */
+
+    .hero {
+      background-color: #576f35;
+    }
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .hero-content-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 28px 20px 40px;
+      min-width: 335px;
+    }
+    .hero-title {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 100%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+    }
+    .hero-paragraph {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 129%;
+    }
+    .hero-bgimage {
+      display: flex;
+      justify-content: center;
+      height: 378px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    /* MENU MODAL */
+
+    .header-menu-background {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      inset: 0;
+      background-color: var(--purple);
+    }
+    .header-menu-modal {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      padding: 40px;
+    }
+    .header-menu-modal-close-button {
+      display: flex;
+      justify-content: right;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .header-menu-modal-close {
+      display: block;
+      background-color: transparent;
+      border: none;
+    }
+    .header-menu-modal-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    .header-menu-modal-pages {
+      display: flex;
+      flex-direction: column;
+      padding-top: 188px;
+      gap: 8px;
+    }
+    .header-menu-modal-list {
+      list-style-type: none;
+    }
+    .header-menu-modal-button {
+      display: block;
+      min-width: 115px;
+      min-height: 42px;
+      border: 1px solid rgba(251, 251, 251, 0.4);
+      background-color: transparent;
+      color: var(--beige);
+      border-radius: 12px;
+      transition: 0.25s;
+    }
+    .header-menu-modal-button:hover,
+    .header-menu-modal-button:focus {
+      background-color: var(--beige);
+      color: var(--purple-hover);
+    }
+    .header-menu-shop-button {
+      display: block;
+      min-width: 155px;
+      min-height: 50px;
+      border: none;
+      font-weight: 600;
+      background-color: var(--beige);
+      color: var(--purple);
+      border-radius: 30px;
+      transition: 0.25s;
+    }
+    .header-menu-shop-button:hover,
+    .header-menu-shop-button:focus {
+      color: rgba(122, 49, 69, 0.7);
+    }
+    .is-open {
+      display: block;
+    }
 
     /********Selçuk Bayram Aydın********/
 
@@ -56,7 +236,146 @@ img {
 
     /********Emrah Cagigan**************/
 
+    /* HEADER */
 
+    .header {
+      background-color: #576f35;
+    }
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 32px;
+    }
+    .header-logo {
+      display: flex;
+      align-items: inherit;
+    }
+    .header-navbar {
+      display: none;
+    }
+
+    /* HERO */
+
+    .hero {
+      background-color: #576f35;
+    }
+    .hero-content {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .hero-content-left {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 18px 32px 50px;
+      max-width: 1268px;
+    }
+    .hero-title {
+      font-weight: 600;
+      font-size: 76px;
+      line-height: 100%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+    }
+    .hero-paragraph {
+      font-size: 14px;
+      line-height: 125%;
+      max-width: 603px;
+    }
+    .hero-bgimage {
+      display: flex;
+      justify-content: center;
+      height: 539px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    /* MENU MODAL */
+
+    .header-menu-background {
+      display: none;
+      align-items: center;
+      justify-content: right;
+      position: fixed;
+      inset: 0;
+      background-color: rgba(20, 20, 20, 0.4);
+    }
+    .header-menu-modal {
+      position: absolute;
+      left: auto;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background-color: var(--purple);
+      width: 351px;
+      height: 100%;
+      padding: 40px;
+    }
+    .header-menu-modal-close-button {
+      display: flex;
+      justify-content: right;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .header-menu-modal-close {
+      display: block;
+      background-color: transparent;
+      border: none;
+    }
+    .header-menu-modal-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    .header-menu-modal-pages {
+      display: flex;
+      flex-direction: column;
+      padding-top: 288px;
+      gap: 8px;
+    }
+    .header-menu-modal-list {
+      list-style-type: none;
+    }
+    .header-menu-modal-button {
+      display: block;
+      min-width: 115px;
+      min-height: 42px;
+      border: 1px solid rgba(251, 251, 251, 0.4);
+      background-color: transparent;
+      color: var(--beige);
+      border-radius: 12px;
+      transition: 0.25s;
+    }
+    .header-menu-modal-button:hover,
+    .header-menu-modal-button:focus {
+      background-color: var(--beige);
+      color: var(--purple-hover);
+    }
+    .header-menu-shop-button {
+      display: block;
+      min-width: 155px;
+      min-height: 50px;
+      border: none;
+      font-weight: 600;
+      background-color: var(--beige);
+      color: var(--purple);
+      border-radius: 30px;
+      transition: 0.25s;
+    }
+    .header-menu-shop-button:hover,
+    .header-menu-shop-button:focus {
+      color: rgba(122, 49, 69, 0.7);
+    }
+    .is-open {
+      display: block;
+    }
 
     /********Selçuk Bayram Aydın********/
 
@@ -81,8 +400,6 @@ img {
     /**********Şebnem Kosker***********/
 
 
-    
-
 }
 
 /*******************************|Desktop Design|******************************/
@@ -90,7 +407,111 @@ img {
 
     /********Emrah Cagigan**************/
 
+    /* HEADER */
+    
+    .container {
+      width: 1280px;
+      margin: 0 auto;
+    }
+    .header {
+      position: relative;
+    }
+    .header-content {
+      position: absolute;
+      display: flex;
+      width: 1080px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 32px 0;
+      margin: 0 100px;
+    }
+    .header-logo {
+      gap: 8px;
+    }
+    .header-navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .header-navbar-pages {
+      display: flex;
+      list-style-type: none;
+      gap: 8px;
+    }
+    .header-navbar-pages-list {
+      border: 1px solid rgba(251, 251, 251, 0.4);
+      padding: 12px;
+      border-radius: 12px;
+      transition: 0.25s;
+    }
+    .header-navbar-pages-list:hover {
+      background-color: var(--beige);
+      color: var(--purple-hover);
+    }
+    .header-navbar-button {
+      display: block;
+      border: none;
+      border-radius: 26px;
+      padding: 16px 32px;
+      background-color: var(--purple);
+      color: var(--beige);
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 111%;
+      letter-spacing: -0.01em;
+      transition: 0.25s;
+    }
+    .header-navbar-button:hover {
+      background-color: var(--purple-hover);
+    }
+    .header-menu {
+      display: none;
+    }
+    
+    /* ------------------------- HEADER > HERO ------------------------- */
+  
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      background-color: #576f35;
+    }
+    .hero-content {
+      display: flex;
+      gap: 28px;
+      z-index: 1;
+      padding-left: 100px;
+    }
+    .hero-content-left {
+      display: flex;
+      justify-content: end;
+      flex-direction: column;
+      gap: 128px;
+      padding-bottom: 50px;
+    }
+    .hero-title {
+      font-weight: 600;
+      font-size: 76px;
+      line-height: 100%;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+    }
+    .hero-paragraph {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 125%;
+      max-width: 472px;
+    }
+    .hero-bgimage {
+      min-width: 650px;
+      height: 800px;
+      object-fit: cover;
+    }
 
+    .header-menu-background {
+      display: none;
+    }
 
     /********Selçuk Bayram Aydın********/
 
