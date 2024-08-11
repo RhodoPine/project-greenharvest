@@ -44,20 +44,3 @@
 
 </defs>
 </svg>
-
-<!--  html de kullanmamız gereken kodlar
-
-
-<svg class="icon">
-  <use xlink:href="#close-mobile"></use>
-</svg><svg class="icon">
-  <use xlink:href="#logo"></use>
-</svg><svg class="icon">
-  <use xlink:href="#logo-mobile"></use>
-</svg><svg class="icon">
-  <use xlink:href="#menu"></use>
-</svg><svg class="icon">
-  <use xlink:href="#menu-mobile"></use>
-</svg><svg class="icon">
-  <use xlink:href="#close"></use>
-</svg> -->
