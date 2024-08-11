@@ -497,6 +497,10 @@
     display: none;
   }
 
+  .reviews ul li:nth-child(3) {
+    display: none;
+  }
+
   .reviews .rect {
     position: absolute;
     inset: 243px 736px 0 0;
