@@ -2838,6 +2838,8 @@
     }
 
     .footer-list-container {
+        display:flex;
+        gap:21px
     margin-top: 0px;
     }
     .first-container {
@@ -2876,7 +2878,7 @@
 
     .tel-addul {
     gap: 25px;
-    margin-top: 64px;
+    margin-top: 0;
     }
     .down-link {
     font-size: 18px;
