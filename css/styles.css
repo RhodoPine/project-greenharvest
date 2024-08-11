@@ -1617,7 +1617,7 @@
     /* HEADER */
     
     .container {
-      width: 1920px;
+      width: 100%;
       margin: 0 auto;
     }
     .header {
@@ -1983,7 +1983,7 @@
         flex-direction: column;
         background-color: #7a3145;
         padding: 100px;
-        max-width: 1280px;
+        max-width: 100%;
         justify-content: center;
         margin: 0 auto;
     }
