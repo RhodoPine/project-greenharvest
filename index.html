@@ -20,11 +20,87 @@
 </head>
 <body>
     <!------------------Emrah Cagigan--------------------------->
-    <header class="header"></header>
+    <!-- <header class="header"></header> -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-logo">
+                    <a class="header-main-page" href="#">
+                        <svg class="header-logo-svg" width="16" height="16">
+                            <use href="./svg/icons.svg#icon-brand-logo"></use>
+                        </svg>
+                            <svg class="header-logo-svg" width="148" height="12">
+                        <use href="./svg/icons.svg#icon-brand"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header-navbar">
+                    <div>
+                        <ul class="header-navbar-pages">
+                            <li class="header-navbar-pages-list"><a href="#">How It Works</a></li>
+                            <li class="header-navbar-pages-list"><a href="#">Vegetables</a></li>
+                            <li class="header-navbar-pages-list"><a href="#">Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button class="header-navbar-button">SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <svg id="menu-open-button" class="header-logo-svg" width="32" height="32">
+                        <use href="./svg/icons.svg#icon-menu"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div id="hamburger-menu" class="header-menu-background">
+            <div class="header-menu-modal">
+                <div class="header-menu-modal-close-button">
+                    <button id="menu-close-button" class="header-menu-modal-close">
+                        <svg class="header-logo-svg" width="32" height="32">
+                            <use href="./svg/icons.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="header-menu-modal-content">
+                    <ul class="header-menu-modal-pages">
+                        <li class="header-menu-modal-list">
+                            <button class="header-menu-modal-button"><a href="#">How It Works</a></button>
+                        </li>
+                        <li class="header-menu-modal-list">
+                            <button class="header-menu-modal-button"><a href="#">Vegetables</a></button>
+                        </li>
+                        <li class="header-menu-modal-list">
+                            <button class="header-menu-modal-button"><a href="#">Reviews</a></button>
+                        </li>
+                    </ul>
+                    <div>
+                        <button class="header-menu-shop-button">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <main>
-
-        <section class="hero"></section>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-content-left">
+                        <h1 class="hero-title">organic vegetables to your diet today!</h1>
+                        <p class="hero-paragraph">Our expertly curated vegetable baskets are made with the freshest, 
+                            highest quality vegetables available. Fresh Harvest Box has got you covered. Fresh, 
+                            high-quality vegetables in expertly curated vegetable baskets delivered to you.
+                        </p>
+                    </div>
+                    <div class="hero-content-bgimage">
+                        <img class="hero-bgimage"
+                            srcset="./images/sebzeler.png 1x, ./images/sebzeler3x.png 3x"
+                            src="./images/sebzeler2x.png" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </section>
     <!---------------------------------------------------------->
 
 
@@ -70,7 +146,53 @@
 
 
     <!--------------------Musa Eren Tanrıöver------------------->   
-        <section class="vegetables"></section>
+        <section class="vegetables">
+          <div class="vegetable-container">
+              <div class="vegetables-header-div">
+                <h2 class="vegetables-header">ORGANIC <span class="vegetables-header-span">VEGETABLES</span></h2>
+                <p class="vegetables-header-paragraf">Our organic vegetables are hand-picked from local farms and delivered straight to your doorstep, ensuring that you get
+                the freshest and most nutritious produce possible.</p>
+              </div>
+
+              <div class="vegetables-container-div">
+                  <div class="vegetables-name-div">
+                    <h3 class="vegetables-name">eggplant</h3>
+                    <p class="vegetables-price">60 USD / KG</p>
+                    <img class="vegatables-img" src="./images/patlican2x.png" srcset="./images/patlican.png 1x, ./images/patlican3x.png 3x" alt="patlican">
+                  </div>
+
+                  <div class="vegetables-name-div">
+                    <h3 class="vegetables-name">leek</h3>
+                    <p class="vegetables-price">50 USD / KG</p>
+                    <img class="vegatables-img" src="./images/sogan2x.png" srcset="./images/sogan.png 1x, ./images/sogan3x.png 3x" alt="sogan">
+                  </div>
+
+                  <div class="vegetables-name-div">
+                    <h3 class="vegetables-name">mushrooms</h3>
+                    <p class="vegetables-price">40 USD / KG</p>
+                    <img class="vegatables-img" src="./images/mantar2x.png" srcset="./images/mantar.png 1x, ./images/mantar3x.png 3x" alt="mantar">
+                  </div>
+
+                  <div class="vegetables-name-div">
+                    <h3 class="vegetables-name">corn</h3>
+                    <p class="vegetables-price">60 USD / KG</p>
+                    <img class="vegatables-img" src="./images/misir2x.png" srcset="./images/misir.png 1x, ./images/misir3x.png 3x" alt="misir">
+                  </div>
+                  
+                  <div class="vegetables-name-div">
+                    <h3 class="vegetables-name">sweet potatoes</h3>
+                    <p class="vegetables-price">50 USD / KG</p>
+                    <img class="vegatables-img" src="./images/patates2x.png" srcset="./images/patates.png 1x, ./images/patates3x.png 3x" alt="patates">
+                  </div>
+
+                  <div class="vegetables-name-div">
+                    <h3 class="vegetables-name">carrot</h3>
+                    <p class="vegetables-price">40 USD / KG</p>
+                    <img class="vegatables-img" src="./images/havuc2x.png" srcset="./images/havuc.png 1x, ./images/havuc3x.png 3x" alt="havuc">
+                  </div>
+              </div>
+          </div>
+        </section>
     <!---------------------------------------------------------->
 
 
@@ -93,7 +215,82 @@
 
     <!-------------------Şebnem--------------------------------->
 
-    <footer class="footer"></footer>
+    <footer>
+        <div class="container footer-container">
+          <div class="footer-wrap">
+            <div class="first-container">
+              <div class="logo-container">
+                <div class="svg-logo-container">
+                  <a href="./index.html">
+                    <img
+                      class="logo-svg"
+                      width="194"
+                      height="18"
+                      src="./images/logo-ph.svg"
+                      alt="Green.Harvest"
+                    />
+                    <img
+                      class="logo-tab-des"
+                      width="194"
+                      height="18"
+                      src="./images/logo-tab-des.svg"
+                      alt="Green.Harvest"
+                    />
+                  </a>
+                </div>
+                <p class="footer-p">
+                  Whether you're looking for a healthy snack or a thoughtful gift, our
+                  fruit baskets are the perfect choice.
+                </p>
+              </div>
+            </div>
+            <div class="des-position">
+              <div class="second-container">
+                <div class="footer-list-container">
+                  <nav class="nav-list">
+                    <ul class="link-list">
+                      <li class="link-items">
+                        <a class="footer-menu" href="#hiv">how it works</a>
+                      </li>
+                      <li class="link-items">
+                        <a class="footer-menu" href="#vegetables">vegetables</a>
+                      </li>
+                      <li class="link-items">
+                        <a class="footer-menu" href="#reviews">reviews</a>
+                      </li>
+                    </ul>
+                  </nav>
+      
+                  <div class="tel-add">
+                    <ul class="tel-addul">
+                      <li class="tel-addli">
+                        <a class="tel-address-link" href="+380684439426"
+                          >+380 (68) 443-94-26</a
+                        >
+                      </li>
+                      <li class="ttel-addli">
+                        <a class="tel-address-link" href=""
+                          >1678 S. Pioneer Road Salt Lake City UT 84104</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="priv-pol-container">
+            <ul class="priv-pol-list">
+              <li class="priv-pol">
+                <a class="down-link set" href="">Privacy Policy</a>
+                <span class="down-link">/</span>
+                <a class="down-link set" href="">Cookie settings</a>
+              </li>
+              <li class="down-link">©Green Harvest 2023</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     <!---------------------------------------------------------->
 
 
