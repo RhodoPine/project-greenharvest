@@ -2839,7 +2839,7 @@
 
     .footer-list-container {
         display:flex;
-        gap:21px
+        gap:21px;
     margin-top: 0px;
     }
     .first-container {
