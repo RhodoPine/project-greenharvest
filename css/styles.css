@@ -19,7 +19,7 @@ img {
 
 /*******************************|Mobile Design|******************************/
 
-@media (min-width:378px) and (max-width:767px){
+
 
     /********Emrah Cagigan**************/
 
@@ -27,7 +27,142 @@ img {
 
     /********Selçuk Bayram Aydın********/
 
+.our-page{
+    font-family: Inter Tight;
+    gap: 50px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+        .paragraf{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #ffffff;
+    }
 
+        .paragraf2 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        color: #000000;
+        opacity: 60%;
+        }
+
+    .left-section{
+        padding:100px;
+        gap: 10px;
+        background-color: #722437;
+        width: 50%;
+    }
+    .left-section img {
+        width: 430px;
+        height: 550px;
+        border-radius: 30px;
+        
+    }
+    
+
+    .right-section {
+        font-family: Inter Tight;
+        background-color: #576F35;
+        color: #f4f4f4;
+        width: 50%;
+        height: 759px;
+        padding: 50px;
+        
+    }
+    .right-section h2 {
+        font-family: Inter Tight;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.2%;
+        text-align: left;
+        font-family: Inter Tight;
+        padding-bottom: 50px;
+        
+
+    }
+
+    .highlight {
+        opacity: 30%;
+        font-size: 32px;
+    }
+
+    .steps {
+        margin-top: 50px;
+
+    }
+
+    .step {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 15px;
+        background-color: #ffffff;
+        padding: 12px 25px 12px 24px;
+        gap: 10px;
+        border-radius: 15px ;
+        
+    }
+
+    .step-number {
+        background-color: #722437;
+        color: #ffffff;
+        width: 42px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 42px;
+        padding: 21px;
+        
+        
+    }
+
+
+    .step p {
+        margin: 0;
+    }
+
+    .bold {
+        font-weight: bold;
+        opacity: 100%;
+    }
+
+    .promo {
+        text-align: center;
+        padding: 20px;
+        background-color: #ffffff;
+    }
+
+    .promo h1 {
+        font-size: 28px;
+        line-height: 1.2;
+        color: #000000;
+    }
+
+    .promo-highlight {
+        background-color: #576F35;
+        color: #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .discount{
+        
+        height: 440px;
+        padding: 100px;
+        font-size: 76px;
+        letter-spacing: .-1.5%;
+        background-color: #ffffff;
+    }
 
     /********Musa Eren Tanrıöver********/
 
