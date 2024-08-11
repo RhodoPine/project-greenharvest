@@ -819,11 +819,11 @@
     /**********Şebnem Shabb007*********/
 
      
-    .container {
+    .containerx {
       max-width: 375px;
       }
   
-      .container {
+      .containerx {
           padding-left: 20px;
           padding-right: 20px;
           margin-left: auto;
@@ -1733,7 +1733,7 @@
     /**********Şebnem Shabb007*********/
 
      
-    .container {
+    .containerx {
       padding-left: 20px;
       padding-right: 20px;
       margin-left: auto;
@@ -1892,7 +1892,7 @@
   .logo-tab-des {
   display: inline;
   }
-  .container {
+  .containerx {
   min-width: 768px;
   padding-left: 32px;
   padding-right: 32px;
@@ -2671,7 +2671,7 @@
 
     /**********Şebnem Shabb007*********/
 
-    .container {
+    .containerx {
       padding-left: 20px;
       padding-right: 20px;
       margin-left: auto;
@@ -2830,7 +2830,7 @@
     .logo-tab-des {
     display: inline;
     }
-    .container {
+    .containerx {
     min-width: 768px;
     padding-left: 100px;
     padding-right: 100px;
