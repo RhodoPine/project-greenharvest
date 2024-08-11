@@ -451,6 +451,192 @@
 
     /**********Hasip Tektaş************/
 
+    .fresh-box {
+        background-color: #7a3145;
+
+    }
+    
+    .deneme{
+        display: flex;
+        flex-direction: column;
+        background-color: #7a3145;
+        max-width: 1280px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .fresh-box-container {
+        width: 335px;
+        height: 301px;
+        margin: 0 auto;
+    }
+
+    .fresh-box-baslik {
+        font-family: 'Inter Tight', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 1;
+        color: #fbfbfb;
+    }
+
+    .fresh-box-span {
+        color: #FBFBFB4D;
+    
+    }
+
+    .fresh-box-paragraf {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-top: 16px;
+        color: #fbfbfb;
+    }
+
+    .fresh-box-contact{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 24px;
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .fresh-box-form-baslik {
+        font-family: 'Inter Tight', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 24px;
+        width: 295px;
+        height: 130px;
+    }
+
+    .fresh-box-form {
+        background-color: #fbfbfb;
+        padding: 40px 20px;
+        width: 335px;
+        height: 534px;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+
+    .fresh-box-form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 295px;
+        margin: 40px auto;
+    }
+
+    .form-baslik-fromus{
+        color: #7a3145;
+    }
+
+    .form-baslik-theform{
+        color:#576F35;
+    }
+
+    .fresh-box-button {
+        font-family: 'Inter Tight', sans-serif;
+        width: 295px;
+        height: 52px;
+        border-radius: 30px;
+        background-color: #576F35;
+        border: none;
+        text-transform: uppercase;
+        color: #fbfbfb;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.1;
+        margin-top: 25px;
+    }
+
+    .fresh-box-input {
+        width: 295px;
+        height: 46px;
+        padding: 16px;
+        gap: 10px;
+        border-radius: 30px;
+        border: 1px solid #14141433;
+    }
+
+    .fresh-box-input::placeholder {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 16px 16px;
+    }
+
+    .fresh-box-textarea {
+        width: 295px;
+        height: 91px;
+        resize: none;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        border-radius: 15px;
+        border: 1px solid #14141433;
+    }
+
+    .fresh-box-textarea::placeholder {
+        padding: 16px 24px;
+    }
+
+    .fresh-box-social {
+        width: 335px;
+        height: 467px;
+        background-color: #576F35;
+        margin: 0 auto;
+        
+        border-radius: 30px;
+    }
+
+    .sport-women {
+        margin: 40px 20px;
+        margin-bottom: 0;
+        width: 295px;
+        height: 273px;
+        max-width: 100%;
+    }
+
+    .fresh-box-social-text {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #FBFBFB80;
+        margin-top: 20px;
+        padding-left: 20px;
+        width: 357px;
+    }
+
+    .fresh-box-social-media {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: #fbfbfb;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 20px;
+        width: 295px;
+    }
+
+    .fresh-box-social-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #inp:not(:placeholder-shown):valid {
+        border-color: green;
+    }
+  
+    #inp:not(:placeholder-shown):invalid  {
+        border-color: red;
+    }
+
+
 
 
     /**********Şebnem Shabb007*********/
@@ -1010,6 +1196,191 @@
 
 
     /**********Hasip Tektaş************/
+
+    .fresh-box {
+        background-color: #7a3145;
+
+    }
+    
+    .deneme{
+        display: flex;
+        flex-direction: column;
+        background-color: #7a3145;
+        padding: 100px;
+        max-width: 1279px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .fresh-box-container {
+        width: 640px;
+        height: 192px;
+    }
+
+    .fresh-box-baslik {
+        font-family: 'Inter Tight', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 1;
+        color: #fbfbfb;
+    }
+
+    .fresh-box-span {
+        color: #FBFBFB4D;
+    
+    }
+
+    .fresh-box-paragraf {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-top: 16px;
+        color: #fbfbfb;
+    }
+
+    .fresh-box-contact{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 24px;
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .fresh-box-form-baslik {
+        font-family: 'Inter Tight', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 24px;
+        width: 429px;
+        height: 78px;
+        margin: 0 auto;
+    }
+
+    .fresh-box-form {
+        background-color: #fbfbfb;
+        padding: 50px 50px;
+        width: 628px;
+        height: 534px;
+        margin: 0 auto;
+        border-radius: 30px;
+    }
+
+    .fresh-box-form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 429px;
+        height: 100%;
+        margin: 50px auto;
+    }
+
+    .form-baslik-fromus{
+        color: #7a3145;
+    }
+
+    .form-baslik-theform{
+        color:#576F35;
+    }
+
+    .fresh-box-button {
+        font-family: 'Inter Tight', sans-serif;
+        height: 52px;
+        border-radius: 30px;
+        background-color: #576F35;
+        border: none;
+        text-transform: uppercase;
+        color: #fbfbfb;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.1;
+        margin-top: 25px;
+    }
+
+    .fresh-box-input {
+        width: 429px;
+        height: 52px;
+        padding: 16px;
+        gap: 10px;
+        border-radius: 30px;
+        border: 1px solid #14141433;
+    }
+
+    .fresh-box-input::placeholder {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 16px 16px;
+    }
+
+    .fresh-box-textarea {
+        width: 429px;
+        height: 95px;
+        resize: none;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        border-radius: 15px;
+        border: 1px solid #14141433;
+    }
+
+    .fresh-box-textarea::placeholder {
+        padding: 16px 24px;
+    }
+
+    .fresh-box-social {
+        width: 628px;
+        height: 534px;
+        background-color: #576F35;
+        margin: 0 auto;
+        
+        border-radius: 30px;
+    }
+
+    .sport-women {
+        margin: 50px auto;
+        margin-bottom: 0;
+        width: 528px;
+        height: 273px;
+        max-width: 100%;
+    }
+
+    .fresh-box-social-text {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FBFBFB80;
+        margin-top: 50px;
+        padding-left: 50px;
+        width: 357px;
+    }
+
+    .fresh-box-social-media {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        color: #fbfbfb;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 50px;
+        width: 500px;
+    }
+
+    .fresh-box-social-list{
+        display: flex;
+    }
+
+    #inp:not(:placeholder-shown):valid {
+        border-color: green;
+    }
+  
+    #inp:not(:placeholder-shown):invalid  {
+        border-color: red;
+    }
 
 
 
@@ -1601,6 +1972,188 @@
 
 
     /**********Hasip Tektaş************/
+
+    .fresh-box {
+        background-color: #7a3145;
+
+    }
+    
+    .deneme{
+        display: flex;
+        flex-direction: column;
+        background-color: #7a3145;
+        padding: 100px;
+        max-width: 1280px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .fresh-box-container {
+        width: 751px;
+        height: 193px;
+    }
+
+    .fresh-box-baslik {
+        font-family: 'Inter Tight', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 1;
+        color: #fbfbfb;
+    }
+
+    .fresh-box-span {
+        color: #FBFBFB4D;
+    
+    }
+
+    .fresh-box-paragraf {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-top: 16px;
+        color: #fbfbfb;
+    }
+
+    .fresh-box-contact{
+        display: flex;
+        gap: 24px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .fresh-box-form-baslik {
+        font-family: 'Inter Tight', sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 24px;
+        width: 429px;
+        height: 78px;
+    }
+
+    .fresh-box-form {
+        background-color: #fbfbfb;
+        padding: 50px 50px;
+        width: 529px;
+        height: 534px;
+        
+        border-radius: 30px;
+    }
+
+    .fresh-box-form-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 429px;
+        height: 100%;
+        margin: 50px auto;
+    }
+
+    .form-baslik-fromus{
+        color: #7a3145;
+    }
+
+    .form-baslik-theform{
+        color:#576F35;
+    }
+
+    .fresh-box-button {
+        font-family: 'Inter Tight', sans-serif;
+        height: 52px;
+        border-radius: 30px;
+        background-color: #576F35;
+        border: none;
+        text-transform: uppercase;
+        color: #fbfbfb;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.1;
+        margin-top: 25px;
+    }
+
+    .fresh-box-input {
+        width: 429px;
+        height: 52px;
+        padding: 16px;
+        gap: 10px;
+        border-radius: 30px;
+        border: 1px solid #14141433;
+    }
+
+    .fresh-box-input::placeholder {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 16px 16px;
+    }
+
+    .fresh-box-textarea {
+        width: 429px;
+        height: 95px;
+        resize: none;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        border-radius: 15px;
+        border: 1px solid #14141433;
+    }
+
+    .fresh-box-textarea::placeholder {
+        padding: 16px 24px;
+    }
+
+    .fresh-box-social {
+        width: 527px;
+        height: 534px;
+        background-color: #576F35;
+        margin: 0 auto;
+        
+        border-radius: 30px;
+    }
+
+    .sport-women {
+        margin: 50px 50px;
+        margin-bottom: 0;
+        width: 427px;
+        height: 273px;
+        max-width: 100%;
+    }
+
+    .fresh-box-social-text {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FBFBFB80;
+        margin-top: 50px;
+        padding-left: 50px;
+        width: 357px;
+    }
+
+    .fresh-box-social-media {
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        color: #fbfbfb;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding-left: 50px;
+        width: 357px;
+    }
+
+    .fresh-box-social-list{
+        display: flex;
+    }
+
+    #inp:not(:placeholder-shown):valid {
+        border-color: green;
+    }
+  
+    #inp:not(:placeholder-shown):invalid  {
+        border-color: red;
+    }
 
 
 
