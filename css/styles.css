@@ -62,7 +62,7 @@
 
 /*******************************|Mobile Design|******************************/
 
-@media (min-width:378px) and (max-width:767px){
+@media (min-width:375px) and (max-width:767px){
 
     /********Emrah Cagigan**************/
 
@@ -455,7 +455,9 @@
   }
   .reviews .content_box {
     position: relative;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left:20px;
     width: 1079px;
     height: 501px;
     min-height: 501px;
