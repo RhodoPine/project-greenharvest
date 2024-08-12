@@ -63,7 +63,7 @@ a {
 
 /*******************************|Mobile Design|******************************/
 
-@media (min-width: 378px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 767px) {
   /********Emrah Cagigan**************/
 
   /* HEADER */
@@ -435,7 +435,9 @@ a {
   }
   .reviews .content_box {
     position: relative;
-    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 20px;
     width: 1079px;
     height: 501px;
     min-height: 501px;
@@ -449,7 +451,7 @@ a {
     height: 128px;
   }
   .reviews .hero-title {
-    font: 600 64px/1 "Inter Tight", Helvetica, Arial, serif;
+    font: 600 48px/1 "Inter Tight", Helvetica, Arial, serif;
     color: #141414;
     letter-spacing: -0.96px;
     width: 335px;
@@ -610,7 +612,7 @@ a {
     background-color: #7a3145;
   }
 
-  .deneme {
+  .fresh-box-main {
     display: flex;
     flex-direction: column;
     background-color: #7a3145;
@@ -1329,8 +1331,8 @@ a {
   }
   .reviews .content_box {
     position: relative;
-    margin: 100px;
-    width: 1079px;
+    margin: 100px 32px;
+    width: 704px;
     height: 501px;
     min-height: 501px;
   }
@@ -1498,7 +1500,7 @@ a {
     background-color: #7a3145;
   }
 
-  .deneme {
+  .fresh-box-main {
     display: flex;
     flex-direction: column;
     background-color: #7a3145;
@@ -2145,14 +2147,13 @@ a {
 
   .vegetables {
     background-color: #7a3145;
-    padding: 100px auto;
   }
 
   .vegetables-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .vegetables-header-div {
@@ -2199,7 +2200,7 @@ a {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .vegetables-name-div {
@@ -2238,6 +2239,7 @@ a {
     height: 243px;
     display: flex;
     padding-left: 26px;
+    margin: 0 auto;
   }
 
   /***********Tunahan Erdem**********/
@@ -2414,11 +2416,13 @@ a {
     background-color: #7a3145;
   }
 
-  .deneme {
+  .fresh-box-main {
     display: flex;
     flex-direction: column;
     background-color: #7a3145;
     padding: 100px;
+    gap: 50px;
+    width: 1280px;
     max-width: 100%;
     justify-content: center;
     margin: 0 auto;
@@ -2455,7 +2459,8 @@ a {
     display: flex;
     gap: 24px;
     margin-top: 50px;
-    width: 1280px;
+    min-width: 100%;
+    justify-content: center;
   }
 
   .fresh-box-form-baslik {
@@ -2545,8 +2550,6 @@ a {
     width: 527px;
     height: 534px;
     background-color: #576f35;
-    margin: 0 auto;
-
     border-radius: 30px;
   }
 
