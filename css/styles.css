@@ -1380,8 +1380,8 @@
   }
   .reviews .content_box {
     position: relative;
-    margin: 100px;
-    width: 1079px;
+    margin: 100px 32px;
+    width: 704px;
     height: 501px;
     min-height: 501px;
   }
